@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    color: white;
+    margin:0;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.Logo_title{
+    width: 300px; 
+   height: 72px;
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+
+}
+.image_logo{
+    margin-right: 25px; 
+}
+.title  {
+    text-align : center;
+}
+nav {
+    background-color: black;
+    margin-left : 750px
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    padding: 5px 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+
+
+
+ main{
+    width : 100%;
+
+ }
+ 
+  .photo_membre{
+      width : 65%;
+      height: auto;
+     margin-left: auto;
+     margin-right : auto;
+     margin-bottom: 100px;
+  }
+  .txtandim{
+    width : 100%;
+    margin-left: auto;
+    margin-right:auto;
+    
+    
+    
+  }
+  .txt{
+    width: 65%;
+    font-size: 1.6em;
+    margin-left: auto;
+    margin-right:auto; 
+  
+  }
+  footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 300px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin-right: 10px; /* Adjust the margin as needed */
+    font-size: 1.2em;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+  
+ 
