@@ -95,12 +95,15 @@ main{
 
 footer ul {
     list-style: none;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     margin: 0;
 }
 
 footer li {
-    margin-right: 10px; 
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.2em;
     color: white;
     display: flex;
