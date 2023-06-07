@@ -6,6 +6,7 @@ body{
 header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 72px;
     margin-bottom: 70px;
     margin-top: 50px;
@@ -28,7 +29,6 @@ header{
 }
 nav {
     background-color: black;
-    margin-left : 750px
   }
   
   nav ul {
@@ -39,7 +39,7 @@ nav {
   
   nav li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 100px;
   }
   
   nav a {
@@ -53,22 +53,21 @@ nav {
     background-color: #555;
   }
 
+main{
+  width: fit-content;
+}
 
 
- main{
-    width : 100%;
-
- }
  
   .photo_membre{
-      width : 65%;
+      width : fit-content;
       height: auto;
      margin-left: auto;
      margin-right : auto;
      margin-bottom: 100px;
   }
   .txtandim{
-    width : 100%;
+    width : fit-content;
     margin-left: auto;
     margin-right:auto;
     
@@ -76,7 +75,7 @@ nav {
     
   }
   .txt{
-    width: 65%;
+    width: 70%;
     font-size: 1.6em;
     margin-left: auto;
     margin-right:auto; 
@@ -101,7 +100,7 @@ footer ul {
 }
 
 footer li {
-    margin-right: 10px; /* Adjust the margin as needed */
+    margin-right: 10px; 
     font-size: 1.2em;
     color: white;
     display: flex;
